@@ -1,0 +1,19 @@
+main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60.95px;
+  color: var(--dark-primary-color);
+  margin: 4.5%;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+@media screen and (max-width: 1440px) {
+  .cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

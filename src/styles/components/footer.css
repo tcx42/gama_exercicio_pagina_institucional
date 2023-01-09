@@ -1,0 +1,26 @@
+footer {
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--white-text);
+  background-color: var(--primary-color);
+}
+footer img {
+  margin: 18px 46px 17px 10px;
+}
+footer span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+}
+@media screen and (max-width: 620px) {
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  footer span {
+    margin-bottom: 0.5rem;
+  }
+}
