@@ -60,6 +60,7 @@ form input {
 form textarea {
   border-radius: 7px;
   height: 293px;
+  resize: none;
 }
 form button {
   width: 164px;
