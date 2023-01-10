@@ -1,7 +1,9 @@
+main {
+  margin-bottom: 40px;
+}
 main h1 {
   font-size: 50px;
   font-weight: 700;
-  line-height: 60.95px;
   color: var(--dark-primary-color);
   margin: 4.5%;
 }

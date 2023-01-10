@@ -13,7 +13,6 @@ aside {
 .article-title {
   font-size: 50px;
   font-weight: 700;
-  line-height: 60.95px;
   color: var(--dark-primary-color);
 }
 .article-img {
@@ -25,7 +24,6 @@ aside {
 .tags span {
   font-size: 18px;
   font-weight: 600;
-  line-height: 21.94px;
   color: var(--bg-button);
   border: 1px solid var(--bg-button);
   border-radius: 47px;
@@ -35,7 +33,6 @@ aside {
 .ingredients h4,
 .ingredients li {
   font-size: 20px;
-  line-height: 24.38px;
 }
 .ingredients h4 {
   font-weight: 700;
@@ -49,7 +46,6 @@ aside {
 .recipe-video h4 {
   font-size: 20px;
   font-weight: 700;
-  line-height: 24.38px;
   margin: 37px 0;
 }
 .recipe-video iframe {
@@ -61,7 +57,6 @@ aside {
 .recipe-instructions h4,
 .recipe-instructions p {
   font-size: 20px;
-  line-height: 24.38px;
 }
 .recipe-instructions h4 {
   font-weight: 700;
@@ -73,7 +68,6 @@ aside {
 aside h3 {
   font-size: 30px;
   font-weight: 500;
-  line-height: 36.57px;
   color: var(--dark-primary-color);
   margin: 0 auto;
 }
