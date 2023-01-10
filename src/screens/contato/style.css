@@ -1,5 +1,5 @@
 .opening-contact-page {
-  background-image: url("/assets/images/image-contact-1.png");
+  background-image: url("./../../../assets/images/image-contact-1.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 405px;
@@ -20,7 +20,7 @@
   margin: 30px 0;
 }
 .contact-side-img {
-  background-image: url("/assets/images/image-contact.png");
+  background-image: url("./../../../assets/images/image-contact.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 350px;
