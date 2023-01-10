@@ -8,7 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-body{
+body {
   max-width: var(--page-max-width);
   margin: 0 auto;
 }
@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 :root {
-  /** CORES*/
+  /** CORES */
   --dark-primary-color: #ffa000;
   --light-primary-color: #ffecb3;
   --primary-color: #ffc107;
@@ -27,11 +27,6 @@ a {
   --second-text: #757575;
   --divider-color: #bdbdbd;
   --bg-button: #176902;
-  /** FONTES */
-  --font-size-sm: 16px;
-  --font-size-md: 26px;
-  --font-size-bg: 56px;
-  --font-size-lg: 72px;
   /* PAGINA */
   --page-max-width: 1440px;
 }

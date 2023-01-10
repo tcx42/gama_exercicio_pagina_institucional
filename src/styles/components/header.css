@@ -18,8 +18,16 @@
   color: var(--white-text);
   font-size: 20px;
   font-weight: 700;
-  margin: 12px 29px 12px 29px;
+  margin: 12px 29px;
 }
 .header-nav a:hover {
   text-shadow: 1px 1px 1px black;
+}
+@media screen and (max-width: 900px) {
+  .header-nav {
+    justify-content: space-evenly;
+  }
+  .header-nav a {
+    margin: 12px auto;
+  }
 }
