@@ -1,5 +1,5 @@
 .home-opening-card {
-  background-image: url("/assets/images/home-image-1.png");
+  background-image: url("./../../assets/images/home-image-1.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 639px;
@@ -18,7 +18,7 @@
   left: 67.29%;
 }
 .home-bottom-card {
-  background-image: url("/assets/images/home-image-2.png");
+  background-image: url("./../../assets/images/home-image-2.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 772px;
