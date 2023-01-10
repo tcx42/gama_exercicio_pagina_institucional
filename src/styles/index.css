@@ -7,14 +7,11 @@
 .home-opening-card h1 {
   font-size: 70px;
   font-weight: 700;
-  line-height: 85.33px;
   color: var(--white-text);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
   width: fit-content;
   position: relative;
-  /* top: 166px; */
   top: 25.97%;
-  /* left: 969px; */
   left: 67.29%;
 }
 .home-bottom-card {
@@ -31,23 +28,17 @@
 .home-bottom-card h1 {
   font-size: 65px;
   font-weight: 700;
-  line-height: 79px;
   position: relative;
-  /* top: 163px; */
   top: 21.11%;
-  /* left: 122px; */
   left: 8.47%;
 }
 .home-bottom-card p {
   font-size: 24px;
   font-weight: 500;
-  line-height: 29px;
   margin-bottom: 1rem;
 }
 .home-bottom-card .card-textbox {
   position: relative;
-  /* top: calc(332px - 79px); */
-  /* left: 123px; */
   top: 32.77%;
   left: 8.54%;
   width: 424px;
@@ -56,7 +47,6 @@
   color: var(--dark-primary-color);
   font-size: 55px;
   font-weight: 700;
-  line-height: 67.05px;
   text-align: center;
   width: fit-content;
   margin: 73px auto;
@@ -72,7 +62,19 @@
   .home-opening-card {
     height: 44.375vw;
   }
+  .home-opening-card h1 {
+    font-size: 4.8vw;
+  }
   .home-bottom-card {
     height: 53.61vw;
+  }
+  .home-bottom-card h1 {
+    font-size: 4.5vw;
+  }
+  .home-bottom-card p {
+    font-size: 1.667vw;
+  }
+  .home-bottom-card .card-textbox {
+    width: 29.44vw;
   }
 }

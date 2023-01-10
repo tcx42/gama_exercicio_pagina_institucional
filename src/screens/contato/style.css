@@ -7,12 +7,11 @@
 .opening-contact-page h1 {
   font-size: 70px;
   font-weight: 700;
-  line-height: 85px;
   color: var(--white-text);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
   position: relative;
-  top: 49px;
-  left: 122px;
+  top: 12.1%;
+  left: 8.47%;
 }
 .contact-container {
   display: flex;
@@ -28,7 +27,6 @@
 form h2 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 45.96px;
   color: var(--primary-color);
   margin-bottom: 60px;
 }
@@ -48,7 +46,6 @@ form input,
 form textarea {
   font-size: 16px;
   font-weight: 400;
-  line-height: 21.82px;
   width: 100%;
   margin: 10px 0;
   padding: 35px;
@@ -71,7 +68,6 @@ form button {
   color: var(--white-text);
   font-size: 16px;
   font-weight: 800;
-  line-height: 21.82px;
   margin: 16px 0;
 }
 form button:hover {
@@ -81,6 +77,9 @@ form button:hover {
 @media screen and (max-width: 1440px) {
   .opening-contact-page {
     height: 28.125vw;
+  }
+  .opening-contact-page h1 {
+    font-size: 4.8vw;
   }
 }
 @media screen and (max-width: 1200px) {
